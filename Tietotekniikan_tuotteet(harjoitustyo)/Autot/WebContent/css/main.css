@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;  
+  width: 100%;
+  border: solid gold 2px;
+}
+
+table td, table th {
+  border: 2px solid gold;
+  padding: 8px;  
+}
+
+table tbody tr:nth-child(even){background-color: #f2f2f2;}
+
+table tbody tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4588be;
+  color: white;
+  border: solid gold 2px;
+}
+
+.poista{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;	
+}
+
+.oikealle{
+	text-align: right;	
+}
+
+/* #logout{
+	color: white;
+	cursor: pointer;
+	text-align: right;
+} */
+
+#uusiAuto, #takaisin, #logOut{
+	color: white;	
+	cursor: pointer;	
+}
+
+#takaisinlistaus {
+	color: #e13328;	
+	cursor: pointer;
+}
+
+#loginBtn{
+	cursor: pointer;
+}
+
+#loginDiv{
+	position: absolute;
+	border: 10px solid gold;
+	padding: 20px;
+	border-radius: 10px;
+	left: 40%; 
+	top: 15%;
+	background-color: #8ccada;
+}
+
+#uusiTietotekniikkatuote {
+	cursor: pointer;
+	color: #0bff1b;
+	// text-shadow: 1px 2px #0bff1b;
+}
+
+label {
+	display: block;
+	width: 5em;
+	float: left;
+}
+
